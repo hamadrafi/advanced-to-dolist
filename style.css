@@ -130,3 +130,47 @@ button {
   text-decoration: line-through;
   color: var(--teal);
 }
+
+@media only screen and (max-width: 767px) {
+    .container {
+        max-width: 600px;
+    }
+    .header {
+        padding: 20px;
+    }
+    #tasklist li {
+        padding: 10px;
+        font-size: 14px;
+    }
+    .form input[type="text"] {
+        padding: 10px;
+        font-size: 14px;
+    }
+    .form button[type="submit"] {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+
+@media only screen and (max-width: 479px) {
+    .container {
+        max-width: 400px;
+        padding: 20px;
+    }
+    .header {
+        padding: 15px;
+    }
+    #tasklist li {
+        padding: 5px;
+        font-size: 12px;
+    }
+    .form input[type="text"] {
+        padding: 5px;
+        font-size: 12px;
+    }
+    .form button[type="submit"] {
+        padding: 5px;
+        font-size: 12px;
+    }
+}
