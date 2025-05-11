@@ -83,8 +83,8 @@ const updateTaskList = () => {
                 <p>${task.text}</p>
             </div>
             <div class="icons">
-                <img src="img/edit.png" alt="edit.png" onClick="editTask(${index})">
-                <img src="img/bin.png" alt="bin.png"  onClick="delTask(${index})">
+                <img src="edit.png" alt="edit.png" onClick="editTask(${index})">
+                <img src="bin.png" alt="bin.png"  onClick="delTask(${index})">
             </div>
         </div>
         `;
